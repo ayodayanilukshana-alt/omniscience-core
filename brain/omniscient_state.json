@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 96,
-  "total_videos_dissected": 7087,
-  "country_cursor": 65,
-  "last_updated_utc": "2026-11-14T22:57:41Z",
+  "cycle_idx": 97,
+  "total_videos_dissected": 7299,
+  "country_cursor": 73,
+  "last_updated_utc": "2026-11-14T22:57:57Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794697047,
+    "timestamp": 1794697064,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
     "player_js_size_bytes": 880217,
     "active_experiment_flags": {
@@ -78,6 +78,7 @@
       "mweb_see_fewer_shorts": true,
       "mweb_shorts_comments_panel_id_change": true,
       "mweb_shorts_early_continuation": true,
+      "mweb_shorts_gallery_uniform_spacing": true,
       "mweb_shorts_overlay_deprecate_kaios_layout": true,
       "mweb_watch_captions_set_default_size": true,
       "mweb_watch_stop_scheduler_on_player_response": true,
@@ -133,6 +134,7 @@
       "web_shorts_sound_metadata": true,
       "web_shorts_surveys": true,
       "web_shorts_wn_shelf_header_tuning": true,
+      "web_simple_watch_responsive_typography": true,
       "web_streaming_watch": true,
       "web_thumbnail_to_watch_transition": true,
       "web_watch_add_viewport_meta_tag": true,
@@ -246,7 +248,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1146
+    "total_flags_detected": 1156
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -254,5 +256,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 190
+  "last_batch_size": 212
 }
