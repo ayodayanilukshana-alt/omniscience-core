@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 6,
-  "total_videos_dissected": 1160,
-  "country_cursor": 46,
-  "last_updated_utc": "2026-11-14T18:42:50Z",
+  "cycle_idx": 7,
+  "total_videos_dissected": 1357,
+  "country_cursor": 54,
+  "last_updated_utc": "2026-11-14T18:43:08Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794681755,
+    "timestamp": 1794681773,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
     "player_js_size_bytes": 880217,
     "active_experiment_flags": {
@@ -91,6 +91,7 @@
       "use_white_filled_heart_icon_in_shorts_watch_page": true,
       "watch_pubsub_refactor": true,
       "web_enable_keyboard_shortcut_for_timely_actions": true,
+      "web_enable_shorts_explore_more_sounds_inspo_hub_link": true,
       "web_enable_shorts_remix_handoff_ep": true,
       "web_enable_shorts_sequence_refactor": true,
       "web_engagement_panel_renderer_behavior": true,
@@ -110,7 +111,6 @@
       "web_reels_enable_audio_pivot_in_engagement_panel": true,
       "web_scroll_to_engagement_panel_bugfix": true,
       "web_shorts_2_by_3_lockups_study": true,
-      "web_shorts_always_show_progress_bar": true,
       "web_shorts_audio_track_picker": true,
       "web_shorts_comment_stickers": true,
       "web_shorts_early_continuation": true,
@@ -247,7 +247,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1153
+    "total_flags_detected": 1150
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -255,5 +255,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 219
+  "last_batch_size": 197
 }
