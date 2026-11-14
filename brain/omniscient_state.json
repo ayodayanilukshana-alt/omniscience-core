@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 98,
-  "total_videos_dissected": 7506,
-  "country_cursor": 81,
-  "last_updated_utc": "2026-11-14T22:58:13Z",
+  "cycle_idx": 99,
+  "total_videos_dissected": 7753,
+  "country_cursor": 89,
+  "last_updated_utc": "2026-11-14T22:58:29Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794697080,
+    "timestamp": 1794697095,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
     "player_js_size_bytes": 880217,
     "active_experiment_flags": {
@@ -96,7 +96,6 @@
       "web_enable_shorts_sequence_refactor": true,
       "web_engagement_panel_renderer_behavior": true,
       "web_engagement_panel_show_description": true,
-      "web_fix_shorts_loop_crash": true,
       "web_frosted_glass_disable_watch": true,
       "web_fullscreen_shorts": true,
       "web_fullscreen_shorts_menu_item": true,
@@ -110,9 +109,9 @@
       "web_player_rtr_ctrls": true,
       "web_prefetch_preload_video": true,
       "web_reels_enable_audio_pivot_in_engagement_panel": true,
-      "web_saved_shorts_client_fixes": true,
       "web_scroll_to_engagement_panel_bugfix": true,
       "web_shorts_2_by_3_lockups_study": true,
+      "web_shorts_always_show_progress_bar": true,
       "web_shorts_audio_track_picker": true,
       "web_shorts_comment_stickers": true,
       "web_shorts_early_continuation": true,
@@ -136,7 +135,6 @@
       "web_shorts_sound_metadata": true,
       "web_shorts_surveys": true,
       "web_shorts_wn_shelf_header_tuning": true,
-      "web_simple_watch_responsive_typography": true,
       "web_streaming_watch": true,
       "web_thumbnail_to_watch_transition": true,
       "web_watch_add_viewport_meta_tag": true,
@@ -154,6 +152,7 @@
       "web_watch_ep_enable_property_observers": true,
       "web_watch_fill_description_more_text": true,
       "web_watch_fix_ambient_mode_cutoff": true,
+      "web_watch_fullscreen_panels": true,
       "web_watch_get_updated_metadata_manager": true,
       "web_watch_hero_list": true,
       "web_watch_hide_key_moments": true,
@@ -250,7 +249,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1148
+    "total_flags_detected": 1149
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -258,5 +257,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 207
+  "last_batch_size": 247
 }
