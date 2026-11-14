@@ -1,12 +1,12 @@
 {
-  "cycle_idx": 90,
-  "total_videos_dissected": 5787,
-  "country_cursor": 17,
-  "last_updated_utc": "2026-11-14T19:37:47Z",
+  "cycle_idx": 91,
+  "total_videos_dissected": 5992,
+  "country_cursor": 25,
+  "last_updated_utc": "2026-11-14T22:56:16Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794680813,
-    "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
-    "player_js_size_bytes": 880217,
+    "timestamp": 1794696962,
+    "player_version": "/s/player/fad7e4e9/player_es6_tcl.vflset/en_US/base.js",
+    "player_js_size_bytes": 972348,
     "active_experiment_flags": {
       "c3_watch_page_component": true,
       "client_respect_autoplay_switch_button_renderer": true,
@@ -74,6 +74,7 @@
       "mweb_home_reactive_shorts": true,
       "mweb_kaios_enable_autoplay_switch_view_model": true,
       "mweb_playlist_engagement_panel": true,
+      "mweb_process_cold_load_reel_sequence_response_actions": true,
       "mweb_schedule_warm_watch_response": true,
       "mweb_see_fewer_shorts": true,
       "mweb_shorts_comments_panel_id_change": true,
@@ -110,7 +111,6 @@
       "web_prefetch_preload_video": true,
       "web_reels_enable_audio_pivot_in_engagement_panel": true,
       "web_scroll_to_engagement_panel_bugfix": true,
-      "web_seeded_shorts_idle_initial_data": true,
       "web_shorts_2_by_3_lockups_study": true,
       "web_shorts_audio_track_picker": true,
       "web_shorts_comment_stickers": true,
@@ -130,7 +130,6 @@
       "web_shorts_scrubber_bar": true,
       "web_shorts_seek_keyboard_shortcuts": true,
       "web_shorts_shelf_on_search": true,
-      "web_shorts_show_last_panel": true,
       "web_shorts_show_overlay_when_rendering_finished": true,
       "web_shorts_simplify_show_panel": true,
       "web_shorts_sound_metadata": true,
@@ -249,7 +248,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1149
+    "total_flags_detected": 1148
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -257,5 +256,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 6
+  "last_batch_size": 205
 }
