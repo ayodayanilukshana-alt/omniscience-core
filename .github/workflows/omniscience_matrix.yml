@@ -3,7 +3,7 @@ name: Project OMNISCIENCE 24/7 Universal YouTube Brain
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 */4 * * *'
+    - cron: '*/30 * * * *'
 
 permissions:
   contents: write
@@ -12,6 +12,9 @@ jobs:
   dissect-and-train:
     runs-on: ubuntu-latest
     timeout-minutes: 35
+    concurrency:
+      group: omniscience-marathon-trainer
+      cancel-in-progress: false
     steps:
       - name: Checkout Omniscience Repository
         uses: actions/checkout@v4
@@ -26,7 +29,7 @@ jobs:
           pip install --upgrade pip
           pip install requests numpy pillow xgboost scikit-learn google-api-python-client google-auth
 
-      - name: Run 10-Layer YouTube Dissection & Incremental Training
+      - name: Run Continuous 20-Cycle Marathon Training (4,000+ Videos/Run)
         env:
           AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
@@ -34,13 +37,13 @@ jobs:
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: |
-          python omniscience_core.py
-
-      - name: Commit Updated Synaptic Weights to Brain Vault
-        run: |
           git config user.name "Omniscience Neural Core"
           git config user.email "core@omniscience.ai"
-          git add brain/
-          git diff --staged --quiet || git commit -m "brain(synapse): incremental 109-country & contrastive 0-view/viral weight update"
-          git pull --rebase -X theirs origin main || true
-          git push origin main
+          for round in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15; do
+            echo "=== MARATHON TRAINING WAVE $round / 15 ==="
+            git pull --rebase -X theirs origin main || true
+            python omniscience_core.py
+            git add brain/
+            git diff --staged --quiet || git commit -m "brain(wave-$round): checkpoint synaptic weights"
+            git push origin main || true
+          done
