@@ -1,12 +1,12 @@
 {
-  "cycle_idx": 103,
-  "total_videos_dissected": 8572,
-  "country_cursor": 16,
-  "last_updated_utc": "2026-11-14T22:59:33Z",
+  "cycle_idx": 104,
+  "total_videos_dissected": 8811,
+  "country_cursor": 24,
+  "last_updated_utc": "2026-11-14T22:59:48Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794697160,
-    "player_version": "/s/player/fad7e4e9/player_es6_tcc.vflset/en_US/base.js",
-    "player_js_size_bytes": 880226,
+    "timestamp": 1794697175,
+    "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
+    "player_js_size_bytes": 880217,
     "active_experiment_flags": {
       "c3_watch_page_component": true,
       "client_respect_autoplay_switch_button_renderer": true,
@@ -35,7 +35,6 @@
       "enable_web_shorts_audio_track": true,
       "enable_web_shorts_mention_pivot": true,
       "enable_web_watch_fullscreen_overflow_menu_fixes": true,
-      "enable_web_watch_next_imp_client": true,
       "enable_wiz_shorts_non_video_content": true,
       "include_autoplay_count_in_playlists": true,
       "is_part_of_any_user_engagement_experiment": true,
@@ -92,6 +91,7 @@
       "use_white_filled_heart_icon_in_shorts_watch_page": true,
       "watch_pubsub_refactor": true,
       "web_enable_keyboard_shortcut_for_timely_actions": true,
+      "web_enable_shorts_explore_more_sounds_inspo_hub_link": true,
       "web_enable_shorts_remix_handoff_ep": true,
       "web_enable_shorts_sequence_refactor": true,
       "web_engagement_panel_renderer_behavior": true,
@@ -109,9 +109,7 @@
       "web_player_rtr_ctrls": true,
       "web_prefetch_preload_video": true,
       "web_reels_enable_audio_pivot_in_engagement_panel": true,
-      "web_saved_shorts_client_fixes": true,
       "web_scroll_to_engagement_panel_bugfix": true,
-      "web_seeded_shorts_idle_initial_data": true,
       "web_shorts_2_by_3_lockups_study": true,
       "web_shorts_audio_track_picker": true,
       "web_shorts_comment_stickers": true,
@@ -136,7 +134,6 @@
       "web_shorts_sound_metadata": true,
       "web_shorts_surveys": true,
       "web_shorts_wn_shelf_header_tuning": true,
-      "web_simple_watch_responsive_typography": true,
       "web_streaming_watch": true,
       "web_thumbnail_to_watch_transition": true,
       "web_watch_add_viewport_meta_tag": true,
@@ -161,7 +158,6 @@
       "web_watch_metadata_visibility_logging": true,
       "web_watch_move_lockup_overflow_menu": true,
       "web_watch_move_summary_to_sd": true,
-      "web_watch_next_imp_small_thumbnails_hide_overlays": true,
       "web_watch_next_secondary_results_limit_results": true,
       "web_watch_next_secondary_results_stamper_cleanup": true,
       "web_watch_next_secondary_results_stamper_cleanup_round_2": true,
@@ -225,7 +221,7 @@
       "swatcheroo_provide_all_data_delay_ms": 250,
       "user_engagement_experiments_rate_limit_ms": 86400000,
       "web_imp_prefetch_hover_delay_ms": 0,
-      "web_imp_watch_hover_delay_ms": 25,
+      "web_imp_watch_hover_delay_ms": -1,
       "web_page_transition_watch_enter_ms": 50,
       "web_page_transition_watch_exit_ms": 50,
       "web_page_transition_watch_next_delay_ms": 100,
@@ -251,7 +247,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1153
+    "total_flags_detected": 1154
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -259,5 +255,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 240
+  "last_batch_size": 239
 }
