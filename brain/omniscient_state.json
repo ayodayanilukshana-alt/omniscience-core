@@ -1,8 +1,8 @@
 {
-  "cycle_idx": 84,
-  "total_videos_dissected": 5745,
-  "country_cursor": 86,
-  "last_updated_utc": "2026-11-14T19:35:06Z",
+  "cycle_idx": 87,
+  "total_videos_dissected": 5758,
+  "country_cursor": 104,
+  "last_updated_utc": "2026-11-14T19:36:21Z",
   "youtube_internal_code_telemetry": {
     "timestamp": 1794680813,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
