@@ -1,8 +1,8 @@
 {
-  "cycle_idx": 339,
-  "total_videos_dissected": 19444,
-  "country_cursor": 87,
-  "last_updated_utc": "2026-11-15T04:21:17Z",
+  "cycle_idx": 342,
+  "total_videos_dissected": 20494,
+  "country_cursor": 0,
+  "last_updated_utc": "2026-11-15T04:23:14Z",
   "youtube_internal_code_telemetry": {
     "timestamp": 1794697191,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
@@ -260,14 +260,14 @@
     "unmet_viewer_demands": []
   },
   "last_batch_size": 350,
-  "total_backtests_executed": 275000,
+  "total_backtests_executed": 350000,
   "latest_blind_backtest_accuracy_pct": 73.7,
   "proven_backtest_strategy": {
-    "optimal_title_char_length": 32,
-    "optimal_word_count": 12,
-    "optimal_uppercase_ratio": 0.179,
-    "optimal_duration_sec_long": 960,
-    "optimal_thumbnail_contrast": 0.453,
-    "predicted_peak_viral_index": 11.28
+    "optimal_title_char_length": 68,
+    "optimal_word_count": 13,
+    "optimal_uppercase_ratio": 0.12,
+    "optimal_duration_sec_long": 769,
+    "optimal_thumbnail_contrast": 0.425,
+    "predicted_peak_viral_index": 14.35
   }
 }
