@@ -9,12 +9,13 @@ permissions:
   contents: write
 
 jobs:
-  dissect-and-train:
+  dissect-and-train-matrix:
     runs-on: ubuntu-latest
     timeout-minutes: 35
-    concurrency:
-      group: omniscience-marathon-trainer
-      cancel-in-progress: false
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4, 5]
     steps:
       - name: Checkout Omniscience Repository
         uses: actions/checkout@v4
@@ -27,23 +28,20 @@ jobs:
       - name: Install ML & Vision Stack
         run: |
           pip install --upgrade pip
-          pip install requests numpy pillow xgboost scikit-learn google-api-python-client google-auth
+          pip install requests numpy pillow xgboost scikit-learn
 
-      - name: Run Continuous 20-Cycle Marathon Training (4,000+ Videos/Run)
+      - name: Run 12-Wave Quota-Free Time-Machine & Real-Time Dissection (Shard ${{ matrix.shard }})
         env:
           AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
-          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
-          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          SHARD_ID: ${{ matrix.shard }}
         run: |
-          git config user.name "Omniscience Neural Core"
-          git config user.email "core@omniscience.ai"
-          for round in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15; do
-            echo "=== MARATHON TRAINING WAVE $round / 15 ==="
+          git config user.name "Omniscience Neural Shard ${{ matrix.shard }}"
+          git config user.email "shard${{ matrix.shard }}@omniscience.ai"
+          for round in 1 2 3 4 5 6 7 8 9 10 11 12; do
             git pull --rebase -X theirs origin main || true
             python omniscience_core.py
             git add brain/
-            git diff --staged --quiet || git commit -m "brain(wave-$round): checkpoint synaptic weights"
-            git push origin main || true
+            git diff --staged --quiet || git commit -m "brain(shard-${{ matrix.shard }}-wave-$round): +200 videos learned"
+            git push origin main || sleep $((RANDOM % 5 + 2))
           done
