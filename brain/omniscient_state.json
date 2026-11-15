@@ -1,12 +1,12 @@
 {
-  "cycle_idx": 116,
-  "total_videos_dissected": 11438,
-  "country_cursor": 15,
-  "last_updated_utc": "2026-11-15T01:52:32Z",
+  "cycle_idx": 117,
+  "total_videos_dissected": 11691,
+  "country_cursor": 23,
+  "last_updated_utc": "2026-11-15T01:52:49Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794707538,
-    "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
-    "player_js_size_bytes": 880217,
+    "timestamp": 1794707555,
+    "player_version": "/s/player/fad7e4e9/player_es6_tcl.vflset/en_US/base.js",
+    "player_js_size_bytes": 972348,
     "active_experiment_flags": {
       "c3_watch_page_component": true,
       "client_respect_autoplay_switch_button_renderer": true,
@@ -74,6 +74,7 @@
       "mweb_home_reactive_shorts": true,
       "mweb_kaios_enable_autoplay_switch_view_model": true,
       "mweb_playlist_engagement_panel": true,
+      "mweb_process_cold_load_reel_sequence_response_actions": true,
       "mweb_schedule_warm_watch_response": true,
       "mweb_see_fewer_shorts": true,
       "mweb_shorts_comments_panel_id_change": true,
@@ -91,7 +92,6 @@
       "use_white_filled_heart_icon_in_shorts_watch_page": true,
       "watch_pubsub_refactor": true,
       "web_enable_keyboard_shortcut_for_timely_actions": true,
-      "web_enable_shorts_explore_more_sounds_inspo_hub_link": true,
       "web_enable_shorts_remix_handoff_ep": true,
       "web_enable_shorts_sequence_refactor": true,
       "web_engagement_panel_renderer_behavior": true,
@@ -134,6 +134,7 @@
       "web_shorts_sound_metadata": true,
       "web_shorts_surveys": true,
       "web_shorts_wn_shelf_header_tuning": true,
+      "web_simple_watch_bigger_gutter_for_medium_lockups": true,
       "web_streaming_watch": true,
       "web_thumbnail_to_watch_transition": true,
       "web_watch_add_viewport_meta_tag": true,
@@ -247,7 +248,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1147
+    "total_flags_detected": 1157
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -255,5 +256,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 228
+  "last_batch_size": 253
 }
