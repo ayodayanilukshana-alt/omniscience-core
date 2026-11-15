@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 107,
-  "total_videos_dissected": 9475,
-  "country_cursor": 48,
-  "last_updated_utc": "2026-11-15T01:49:50Z",
+  "cycle_idx": 108,
+  "total_videos_dissected": 9681,
+  "country_cursor": 56,
+  "last_updated_utc": "2026-11-15T01:50:09Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794707375,
+    "timestamp": 1794707393,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
     "player_js_size_bytes": 880217,
     "active_experiment_flags": {
@@ -109,6 +109,7 @@
       "web_prefetch_preload_video": true,
       "web_reels_enable_audio_pivot_in_engagement_panel": true,
       "web_scroll_to_engagement_panel_bugfix": true,
+      "web_seeded_shorts_idle_initial_data": true,
       "web_shorts_2_by_3_lockups_study": true,
       "web_shorts_audio_track_picker": true,
       "web_shorts_comment_stickers": true,
@@ -128,11 +129,13 @@
       "web_shorts_scrubber_bar": true,
       "web_shorts_seek_keyboard_shortcuts": true,
       "web_shorts_shelf_on_search": true,
+      "web_shorts_show_last_panel": true,
       "web_shorts_show_overlay_when_rendering_finished": true,
       "web_shorts_simplify_show_panel": true,
       "web_shorts_sound_metadata": true,
       "web_shorts_surveys": true,
       "web_shorts_wn_shelf_header_tuning": true,
+      "web_simple_watch_responsive_typography": true,
       "web_streaming_watch": true,
       "web_thumbnail_to_watch_transition": true,
       "web_watch_add_viewport_meta_tag": true,
@@ -246,7 +249,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1139
+    "total_flags_detected": 1153
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -254,5 +257,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 219
+  "last_batch_size": 206
 }
