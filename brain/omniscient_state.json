@@ -1,8 +1,8 @@
 {
-  "cycle_idx": 165,
-  "total_videos_dissected": 16116,
-  "country_cursor": 77,
-  "last_updated_utc": "2026-11-15T02:43:38Z",
+  "cycle_idx": 324,
+  "total_videos_dissected": 16574,
+  "country_cursor": 88,
+  "last_updated_utc": "2026-11-15T03:56:44Z",
   "youtube_internal_code_telemetry": {
     "timestamp": 1794697191,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
@@ -259,5 +259,15 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 2
+  "last_batch_size": 30,
+  "total_backtests_executed": 25000,
+  "latest_blind_backtest_accuracy_pct": 33.3,
+  "proven_backtest_strategy": {
+    "optimal_title_char_length": 35,
+    "optimal_word_count": 11,
+    "optimal_uppercase_ratio": 0.12,
+    "optimal_duration_sec_long": 180,
+    "optimal_thumbnail_contrast": 0.515,
+    "predicted_peak_viral_index": 4082248.75
+  }
 }
