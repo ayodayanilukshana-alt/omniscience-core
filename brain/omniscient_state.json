@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 156,
-  "total_videos_dissected": 14073,
-  "country_cursor": 35,
-  "last_updated_utc": "2026-11-15T02:33:34Z",
+  "cycle_idx": 157,
+  "total_videos_dissected": 14277,
+  "country_cursor": 43,
+  "last_updated_utc": "2026-11-15T02:33:49Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794710000,
+    "timestamp": 1794710016,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
     "player_js_size_bytes": 880217,
     "active_experiment_flags": {
@@ -74,7 +74,6 @@
       "mweb_home_reactive_shorts": true,
       "mweb_kaios_enable_autoplay_switch_view_model": true,
       "mweb_playlist_engagement_panel": true,
-      "mweb_process_cold_load_reel_sequence_response_actions": true,
       "mweb_schedule_warm_watch_response": true,
       "mweb_see_fewer_shorts": true,
       "mweb_shorts_comments_panel_id_change": true,
@@ -82,6 +81,7 @@
       "mweb_shorts_overlay_deprecate_kaios_layout": true,
       "mweb_watch_captions_set_default_size": true,
       "mweb_watch_stop_scheduler_on_player_response": true,
+      "mweb_watch_to_watch_reuse_data": true,
       "mweb_watchfeed_big_thumbnails": true,
       "service_worker_push_watch_page_prompt": true,
       "shorts_desktop_watch_while_sdp": true,
@@ -96,6 +96,7 @@
       "web_enable_shorts_sequence_refactor": true,
       "web_engagement_panel_renderer_behavior": true,
       "web_engagement_panel_show_description": true,
+      "web_fix_shorts_loop_crash": true,
       "web_frosted_glass_disable_watch": true,
       "web_fullscreen_shorts": true,
       "web_fullscreen_shorts_menu_item": true,
@@ -247,7 +248,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1145
+    "total_flags_detected": 1155
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -255,5 +256,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 188
+  "last_batch_size": 204
 }
