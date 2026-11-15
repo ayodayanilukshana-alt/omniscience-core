@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 36,
-  "total_videos_dissected": 13493,
-  "total_backtests_executed": 1425000,
-  "latest_blind_backtest_accuracy_pct": 49.6,
+  "cycle_idx": 40,
+  "total_videos_dissected": 15101,
+  "total_backtests_executed": 1625000,
+  "latest_blind_backtest_accuracy_pct": 53.6,
   "chronological_cursor_date": "2007-02-27",
-  "country_cursor": 27,
+  "country_cursor": 75,
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
     "zero_view_poison_patterns": [],
@@ -12,12 +12,12 @@
     "unmet_viewer_demands": []
   },
   "proven_backtest_strategy": {
-    "optimal_title_char_length": 49,
-    "optimal_word_count": 11,
-    "optimal_uppercase_ratio": 0.133,
+    "optimal_title_char_length": 68,
+    "optimal_word_count": 6,
+    "optimal_uppercase_ratio": 0.398,
     "optimal_duration_sec_long": 180,
-    "predicted_peak_viral_index": 71.62
+    "predicted_peak_viral_index": 97.1
   },
-  "last_batch_size": 635,
-  "last_updated_utc": "2026-11-15T04:51:46Z"
+  "last_batch_size": 418,
+  "last_updated_utc": "2026-11-15T04:54:07Z"
 }
