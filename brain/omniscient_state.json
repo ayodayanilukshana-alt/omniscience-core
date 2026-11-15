@@ -1,8 +1,8 @@
 {
-  "cycle_idx": 141,
-  "total_videos_dissected": 12700,
-  "country_cursor": 38,
-  "last_updated_utc": "2026-11-15T02:22:33Z",
+  "cycle_idx": 144,
+  "total_videos_dissected": 12715,
+  "country_cursor": 56,
+  "last_updated_utc": "2026-11-15T02:24:38Z",
   "youtube_internal_code_telemetry": {
     "timestamp": 1794697191,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
@@ -259,5 +259,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 5
+  "last_batch_size": 4
 }
