@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 109,
-  "total_videos_dissected": 9932,
-  "country_cursor": 64,
-  "last_updated_utc": "2026-11-15T01:50:28Z",
+  "cycle_idx": 110,
+  "total_videos_dissected": 10182,
+  "country_cursor": 72,
+  "last_updated_utc": "2026-11-15T01:50:48Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794707412,
+    "timestamp": 1794707431,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
     "player_js_size_bytes": 880217,
     "active_experiment_flags": {
@@ -77,9 +77,7 @@
       "mweb_schedule_warm_watch_response": true,
       "mweb_see_fewer_shorts": true,
       "mweb_shorts_comments_panel_id_change": true,
-      "mweb_shorts_copy_topbar_from_prev_data_ui": true,
       "mweb_shorts_early_continuation": true,
-      "mweb_shorts_enable_iwf_top_bar": true,
       "mweb_shorts_overlay_deprecate_kaios_layout": true,
       "mweb_watch_captions_set_default_size": true,
       "mweb_watch_stop_scheduler_on_player_response": true,
@@ -92,13 +90,13 @@
       "use_ads_engagement_panel_desktop_footer_cta": true,
       "use_white_filled_heart_icon_in_shorts_watch_page": true,
       "watch_pubsub_refactor": true,
-      "web_enable_ai_search_shorts_containment_modernization": true,
       "web_enable_keyboard_shortcut_for_timely_actions": true,
       "web_enable_shorts_explore_more_sounds_inspo_hub_link": true,
       "web_enable_shorts_remix_handoff_ep": true,
       "web_enable_shorts_sequence_refactor": true,
       "web_engagement_panel_renderer_behavior": true,
       "web_engagement_panel_show_description": true,
+      "web_fix_shorts_loop_crash": true,
       "web_frosted_glass_disable_watch": true,
       "web_fullscreen_shorts": true,
       "web_fullscreen_shorts_menu_item": true,
@@ -112,6 +110,7 @@
       "web_player_rtr_ctrls": true,
       "web_prefetch_preload_video": true,
       "web_reels_enable_audio_pivot_in_engagement_panel": true,
+      "web_saved_shorts_client_fixes": true,
       "web_scroll_to_engagement_panel_bugfix": true,
       "web_shorts_2_by_3_lockups_study": true,
       "web_shorts_audio_track_picker": true,
@@ -258,5 +257,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 251
+  "last_batch_size": 250
 }
