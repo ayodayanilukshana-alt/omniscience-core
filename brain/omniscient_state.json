@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 162,
-  "total_videos_dissected": 15338,
-  "country_cursor": 83,
-  "last_updated_utc": "2026-11-15T02:35:16Z",
+  "cycle_idx": 163,
+  "total_videos_dissected": 15527,
+  "country_cursor": 91,
+  "last_updated_utc": "2026-11-15T02:35:32Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794710102,
+    "timestamp": 1794710119,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
     "player_js_size_bytes": 880217,
     "active_experiment_flags": {
@@ -78,6 +78,7 @@
       "mweb_see_fewer_shorts": true,
       "mweb_shorts_comments_panel_id_change": true,
       "mweb_shorts_early_continuation": true,
+      "mweb_shorts_gallery_uniform_spacing": true,
       "mweb_shorts_overlay_deprecate_kaios_layout": true,
       "mweb_watch_captions_set_default_size": true,
       "mweb_watch_stop_scheduler_on_player_response": true,
@@ -96,7 +97,6 @@
       "web_enable_shorts_sequence_refactor": true,
       "web_engagement_panel_renderer_behavior": true,
       "web_engagement_panel_show_description": true,
-      "web_fix_shorts_loop_crash": true,
       "web_frosted_glass_disable_watch": true,
       "web_fullscreen_shorts": true,
       "web_fullscreen_shorts_menu_item": true,
@@ -111,7 +111,9 @@
       "web_prefetch_preload_video": true,
       "web_reels_enable_audio_pivot_in_engagement_panel": true,
       "web_scroll_to_engagement_panel_bugfix": true,
+      "web_seeded_shorts_idle_initial_data": true,
       "web_shorts_2_by_3_lockups_study": true,
+      "web_shorts_always_show_progress_bar": true,
       "web_shorts_audio_track_picker": true,
       "web_shorts_comment_stickers": true,
       "web_shorts_early_continuation": true,
@@ -248,7 +250,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1148
+    "total_flags_detected": 1153
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -256,5 +258,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 160
+  "last_batch_size": 189
 }
