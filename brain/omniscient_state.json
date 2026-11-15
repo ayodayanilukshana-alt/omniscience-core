@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 106,
-  "total_videos_dissected": 9256,
-  "country_cursor": 40,
-  "last_updated_utc": "2026-11-15T01:49:31Z",
+  "cycle_idx": 107,
+  "total_videos_dissected": 9475,
+  "country_cursor": 48,
+  "last_updated_utc": "2026-11-15T01:49:50Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794707356,
+    "timestamp": 1794707375,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
     "player_js_size_bytes": 880217,
     "active_experiment_flags": {
@@ -36,7 +36,6 @@
       "enable_web_shorts_mention_pivot": true,
       "enable_web_watch_fullscreen_overflow_menu_fixes": true,
       "enable_wiz_shorts_non_video_content": true,
-      "html5_channel_client_screen_watch": true,
       "include_autoplay_count_in_playlists": true,
       "is_part_of_any_user_engagement_experiment": true,
       "kevlar_client_enable_shorts_player_bootstrap": true,
@@ -247,7 +246,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1151
+    "total_flags_detected": 1139
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -255,5 +254,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 156
+  "last_batch_size": 219
 }
