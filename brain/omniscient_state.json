@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 115,
-  "total_videos_dissected": 11210,
-  "country_cursor": 7,
-  "last_updated_utc": "2026-11-15T01:52:15Z",
+  "cycle_idx": 116,
+  "total_videos_dissected": 11438,
+  "country_cursor": 15,
+  "last_updated_utc": "2026-11-15T01:52:32Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794707521,
+    "timestamp": 1794707538,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
     "player_js_size_bytes": 880217,
     "active_experiment_flags": {
@@ -36,7 +36,6 @@
       "enable_web_shorts_mention_pivot": true,
       "enable_web_watch_fullscreen_overflow_menu_fixes": true,
       "enable_wiz_shorts_non_video_content": true,
-      "html5_channel_client_screen_watch": true,
       "include_autoplay_count_in_playlists": true,
       "is_part_of_any_user_engagement_experiment": true,
       "kevlar_client_enable_shorts_player_bootstrap": true,
@@ -78,9 +77,7 @@
       "mweb_schedule_warm_watch_response": true,
       "mweb_see_fewer_shorts": true,
       "mweb_shorts_comments_panel_id_change": true,
-      "mweb_shorts_copy_topbar_from_prev_data_ui": true,
       "mweb_shorts_early_continuation": true,
-      "mweb_shorts_enable_iwf_top_bar": true,
       "mweb_shorts_overlay_deprecate_kaios_layout": true,
       "mweb_watch_captions_set_default_size": true,
       "mweb_watch_stop_scheduler_on_player_response": true,
@@ -106,7 +103,6 @@
       "web_log_player_watch_next_ticks": true,
       "web_log_reels_ticks": true,
       "web_migrate_reel_player_overlay_to_cow": true,
-      "web_migrate_reel_video_renderer_to_cow": true,
       "web_migrate_shorts_player_controls_to_cow": true,
       "web_modern_official_card_enable_shorts": true,
       "web_move_autoplay_video_under_chip": true,
@@ -251,7 +247,7 @@
         "1900:32.5"
       ]
     },
-    "total_flags_detected": 1151
+    "total_flags_detected": 1147
   },
   "algorithmic_laws_vault": {
     "viral_title_formulas": [],
@@ -259,5 +255,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 245
+  "last_batch_size": 228
 }
