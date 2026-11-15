@@ -1,10 +1,10 @@
 {
-  "cycle_idx": 161,
-  "total_videos_dissected": 15178,
-  "country_cursor": 75,
-  "last_updated_utc": "2026-11-15T02:34:59Z",
+  "cycle_idx": 162,
+  "total_videos_dissected": 15338,
+  "country_cursor": 83,
+  "last_updated_utc": "2026-11-15T02:35:16Z",
   "youtube_internal_code_telemetry": {
-    "timestamp": 1794710085,
+    "timestamp": 1794710102,
     "player_version": "/s/player/fad7e4e9/player_es6.vflset/en_US/base.js",
     "player_js_size_bytes": 880217,
     "active_experiment_flags": {
@@ -74,7 +74,6 @@
       "mweb_home_reactive_shorts": true,
       "mweb_kaios_enable_autoplay_switch_view_model": true,
       "mweb_playlist_engagement_panel": true,
-      "mweb_process_cold_load_reel_sequence_response_actions": true,
       "mweb_schedule_warm_watch_response": true,
       "mweb_see_fewer_shorts": true,
       "mweb_shorts_comments_panel_id_change": true,
@@ -97,6 +96,7 @@
       "web_enable_shorts_sequence_refactor": true,
       "web_engagement_panel_renderer_behavior": true,
       "web_engagement_panel_show_description": true,
+      "web_fix_shorts_loop_crash": true,
       "web_frosted_glass_disable_watch": true,
       "web_fullscreen_shorts": true,
       "web_fullscreen_shorts_menu_item": true,
@@ -256,5 +256,5 @@
     "psychological_hook_laws": [],
     "unmet_viewer_demands": []
   },
-  "last_batch_size": 176
+  "last_batch_size": 160
 }
